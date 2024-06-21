@@ -1,0 +1,3 @@
+This is my new file which is created syncronously.
+This data is appended using appendFileSync.
+This data is appended using appendFileSync.

@@ -1,0 +1,12 @@
+{
+  "name": "init_command",
+  "version": "1.0.0",
+  "description": "This is project to understand and run init command",
+  "main": "init_command.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node init_command.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
