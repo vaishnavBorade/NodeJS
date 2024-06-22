@@ -1,10 +1,13 @@
 REST API - JSON 
 
-GET /users - List all users
+GET /users - List all users. return html
   Get /users/1 - Get the user with ID 1
 
-POST /users - create new user
+GET /api/users - List all users as JSON which can be used by every client, not only browsers
+  Get /api/users/1 - Get the user with ID 1
 
-PATCH /user/1 - edit the user with ID 1
+POST /api/users - create new user
 
-DELETE /users/1 - delete the user with ID 1
+PATCH /api/user/1 - edit the user with ID 1
+
+DELETE /api/users/1 - delete the user with ID 1
